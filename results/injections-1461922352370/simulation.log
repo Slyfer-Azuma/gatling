@@ -1,0 +1,82 @@
+ASSERTION	AAMBAAMDBABk
+RUN	Injections		injections	1461922352370	 	2.0
+USER	injecteur 4	1	START	1461922353545	1461922353545
+USER	injecteur 7	2	START	1461922353597	1461922353597
+USER	injecteur 3	3	START	1461922353616	1461922353616
+USER	injecteur 8	4	START	1461922353620	1461922353620
+USER	injecteur 10	5	START	1461922353630	1461922353630
+USER	injecteur 9	6	START	1461922353633	1461922353633
+USER	injecteur 1	7	START	1461922353635	1461922353635
+USER	injecteur 6	8	START	1461922353638	1461922353638
+USER	injecteur 2	9	START	1461922353640	1461922353640
+USER	injecteur 5	10	START	1461922353642	1461922353642
+REQUEST	injecteur 3	3		request_3	1461922353617	1461922353661	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 8	4		request_8	1461922353621	1461922353687	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 4	1		request_4	1461922353587	1461922353610	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 1	7		request_1	1461922353636	1461922353724	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 10	5		request_10	1461922353631	1461922353711	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 9	6		request_9	1461922353633	1461922353732	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 7	2		request_7	1461922353599	1461922353644	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 8	4		request_8	1461922353752	1461922353767	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 3	3		request_3	1461922353757	1461922353775	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 4	1		request_4	1461922353770	1461922353807	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 6	8		request_6	1461922353639	1461922353806	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 1	7		request_1	1461922353779	1461922353809	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 2	9		request_2	1461922353641	1461922353834	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 9	6		request_9	1461922353790	1461922353839	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 10	5		request_10	1461922353784	1461922353845	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 7	2		request_7	1461922353813	1461922353864	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 3	3		request_3	1461922353825	1461922353882	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 8	4		request_8	1461922353821	1461922353893	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 4	1		request_4	1461922353829	1461922353895	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 1	7		request_1	1461922353842	1461922353899	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 6	8		request_6	1461922353833	1461922353905	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 5	10		request_5	1461922353655	1461922353922	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 10	5		request_10	1461922353851	1461922353924	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 2	9		request_2	1461922353847	1461922353929	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 9	6		request_9	1461922353857	1461922353933	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 3	3		request_3	1461922353884	1461922353957	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 7	2		request_7	1461922353877	1461922353959	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 8	4		request_8	1461922353897	1461922353963	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 4	1		request_4	1461922353901	1461922353965	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 1	7		request_1	1461922353906	1461922353966	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 10	5		request_10	1461922353926	1461922353985	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 6	8		request_6	1461922353910	1461922353986	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 2	9		request_2	1461922353931	1461922353990	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 5	10		request_5	1461922353925	1461922353991	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 9	6		request_9	1461922353945	1461922354021	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 8	4		request_8	1461922353967	1461922354025	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 3	3		request_3	1461922353959	1461922354023	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 7	2		request_7	1461922353961	1461922354034	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 4	1		request_4	1461922353972	1461922354050	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 6	8		request_6	1461922353993	1461922354054	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 1	7		request_1	1461922353974	1461922354059	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 10	5		request_10	1461922353987	1461922354064	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 2	9		request_2	1461922354001	1461922354082	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 9	6		request_9	1461922354029	1461922354086	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 8	4		request_8	1461922354028	1461922354095	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 5	10		request_5	1461922354013	1461922354108	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 3	3		request_3	1461922354041	1461922354116	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 10	5		request_10	1461922354065	1461922354120	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 4	1		request_4	1461922354051	1461922354124	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 1	7		request_1	1461922354061	1461922354125	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 6	8		request_6	1461922354056	1461922354130	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 7	2		request_7	1461922354042	1461922354130	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 2	9		request_2	1461922354096	1461922354147	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 9	6		request_9	1461922354099	1461922354167	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 8	4		request_8	1461922354101	1461922354173	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 3	3		request_3	1461922354117	1461922354177	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 10	5		request_10	1461922354122	1461922354178	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 5	10		request_5	1461922354111	1461922354181	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 4	1		request_4	1461922354126	1461922354208	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 1	7		request_1	1461922354132	1461922354210	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 6	8		request_6	1461922354139	1461922354211	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 7	2		request_7	1461922354143	1461922354213	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 2	9		request_2	1461922354149	1461922354218	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 3	3		request_3	1461922354184	1461922354248	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 9	6		request_9	1461922354169	1461922354246	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 5	10		request_5	1461922354193	1461922354250	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 8	4		request_8	1461922354176	1461922354250	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 10	5		request_10	1461922354190	1461922354252	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 4	1		request_4	1461922354211	1461922354283	KO	status.find.is(200), but actually found 400
+REQUEST	injecteur 1	7		request_1	1461922354216	1461922354288	KO	status.find.is(200), but actually found 400

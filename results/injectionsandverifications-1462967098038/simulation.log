@@ -1,0 +1,61 @@
+ASSERTION	AAMBAAMDBABk
+RUN	InjectionsAndVerifications		injectionsandverifications	1462967098038	 	2.0
+USER	injecteur 4	1	START	1462967099249	1462967099249
+USER	injecteur 7	2	START	1462967099321	1462967099321
+USER	injecteur 3	3	START	1462967099324	1462967099324
+USER	injecteur 8	4	START	1462967099326	1462967099326
+USER	injecteur 10	5	START	1462967099330	1462967099330
+USER	injecteur 9	6	START	1462967099332	1462967099332
+USER	injecteur 1	7	START	1462967099334	1462967099334
+USER	injecteur 6	8	START	1462967099338	1462967099338
+USER	injecteur 2	9	START	1462967099345	1462967099345
+USER	injecteur 5	10	START	1462967099347	1462967099347
+REQUEST	injecteur 4	1		request_3	1462967099311	1462967100324	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 9	6		request_8	1462967099333	1462967100342	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 10	5		request_9	1462967099331	1462967100340	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 7	2		request_6	1462967099322	1462967100323	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 6	8		request_5	1462967099339	1462967100349	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 1	7		request_0	1462967099337	1462967100349	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 8	4		request_7	1462967099327	1462967100332	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 3	3		request_2	1462967099325	1462967100332	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 2	9		request_1	1462967099346	1462967100362	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 5	10		request_4	1462967099349	1462967100363	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 1	7		request_0	1462967100360	1462967101364	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 9	6		request_8	1462967100358	1462967101416	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 5	10		request_4	1462967100372	1462967101422	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 6	8		request_5	1462967100360	1462967101419	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 2	9		request_1	1462967100375	1462967101426	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 10	5		request_9	1462967100359	1462967101431	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 7	2		request_6	1462967100358	1462967101434	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 4	1		request_3	1462967100358	1462967101441	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 3	3		request_2	1462967100360	1462967101444	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 8	4		request_7	1462967100360	1462967101449	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 1	7		request_0	1462967101366	1462967102371	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 9	6		request_8	1462967101419	1462967102441	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 7	2		request_6	1462967101435	1462967102446	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 5	10		request_4	1462967101424	1462967102448	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 4	1		request_3	1462967101442	1462967102451	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 8	4		request_7	1462967101450	1462967102463	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 3	3		request_2	1462967101445	1462967102462	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 10	5		request_9	1462967101433	1462967102468	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 2	9		request_1	1462967101428	1462967102470	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 6	8		request_5	1462967101425	1462967102475	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 1	7		request_0	1462967102372	1462967103378	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 8	4		request_7	1462967102464	1462967103467	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 7	2		request_6	1462967102447	1462967103467	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 3	3		request_2	1462967102466	1462967103468	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 9	6		request_8	1462967102460	1462967103470	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 5	10		request_4	1462967102449	1462967103479	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 4	1		request_3	1462967102452	1462967103482	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 2	9		request_1	1462967102474	1462967103485	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 10	5		request_9	1462967102472	1462967103504	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 6	8		request_5	1462967102477	1462967103506	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 1	7		request_0	1462967103380	1462967104388	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 7	2		request_6	1462967103472	1462967104478	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 3	3		request_2	1462967103474	1462967104484	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 9	6		request_8	1462967103475	1462967104489	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 4	1		request_3	1462967103483	1462967104490	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 8	4		request_7	1462967103469	1462967104494	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 5	10		request_4	1462967103480	1462967104498	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 2	9		request_1	1462967103486	1462967104504	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	injecteur 6	8		request_5	1462967103507	1462967104506	KO	j.n.ConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
